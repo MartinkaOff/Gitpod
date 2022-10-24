@@ -1,0 +1,16 @@
+.start {
+    height: 572px;
+    background: #f5f3f4;
+    &__text {
+        padding: 160px 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 64px;
+        span {
+            font-weight: 400;
+            text-decoration-line: line-through;
+            color: #999795;
+        }
+    }
+}

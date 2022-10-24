@@ -1,0 +1,12 @@
+.title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    color: #12100C;
+    &-big {
+        text-align: start;
+        font-size: 80px;
+        line-height: 88px;
+    }
+}

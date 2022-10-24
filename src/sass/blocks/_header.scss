@@ -1,0 +1,35 @@
+.header {
+    padding: 4px 32px;
+    height: 80px;
+    background: #f5f3f4;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__start {
+        margin-top: 129px;
+    }
+    &__nav {
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        &-link {
+            list-style: none;
+            margin-right: 48px;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(18, 16, 12, 0.7);
+        }
+    }
+    &__login {
+        width: 80px;
+        height: 32px;
+        background: #12100C;
+        border-radius: 13px;
+
+        font-size: 14px;
+        line-height: 20px;
+        color: #F9F9F9;
+    }
+}

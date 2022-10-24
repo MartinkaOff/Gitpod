@@ -1,0 +1,55 @@
+.think {
+    height: 792px;
+    background: #f5f3f4;
+    &__wrapper {
+        height: 472px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__start {
+        margin-right: 66px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: rgba(18, 16, 12, 0.7);
+        span {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            color: #12100C;
+        }
+    }
+    &__buttons {
+        margin-top: 155px;
+    }
+    &__btn {
+        margin-right: 16px;
+        width: 162px;
+        height: 32px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 10.5px;
+        border: none;
+        &:focus {
+            outline: none;
+        }
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #12100C;
+        &-orange {
+            background: #FFAE33;
+        }
+        &-pink {
+            width: 146px;
+            background: #FFB0AE;
+        }
+    }
+    &__img {
+        object-fit: fill;
+    }
+}

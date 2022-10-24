@@ -1,0 +1,27 @@
+@import 'libs/font';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick-theme';
+@import 'libs/slick';
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1310px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/start';
+@import 'blocks/think';
+@import 'blocks/remote';
+@import 'blocks/used';
+@import 'blocks/started';
+@import 'blocks/footer';

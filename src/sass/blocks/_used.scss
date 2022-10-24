@@ -1,0 +1,52 @@
+.used {
+    padding: 178px 0;
+    background: #f5f3f4;
+    &__slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 56px;
+        width: 1310px;
+    }
+    &__block {
+        margin-right: 24px;
+        padding: 24px;
+        width: 384px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        &-top {
+            width: 336px;
+        }
+        &-name {
+            margin-top: 16px;
+            display: flex;
+            &-text {
+                span {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #12100C;
+                }
+            }
+        }
+        &-photo {
+            margin-right: 12px;
+        }
+    }
+    &__companies {
+        margin: 0 auto;
+        margin-top: 91px;
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img {
+            margin: 0 auto;
+            margin-top: 45px;
+            margin-right: 45px;
+            &:nth-child(11) {
+                margin-right: 200px;
+            }
+        }
+    }
+}

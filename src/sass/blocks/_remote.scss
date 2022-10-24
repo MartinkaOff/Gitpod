@@ -1,0 +1,26 @@
+.remote {
+    padding: 177px 0;
+    background: #f5f3f4;
+    &__img {
+        margin-top: 48px;
+    }
+    &__descr {
+        margin: 0 auto;
+        margin-top: 49px;
+        width: 877px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: rgba(18, 16, 12, 0.7);
+    }
+    &__extension {
+        display: flex;
+        width: 450px;
+        margin: 32px auto;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+}
